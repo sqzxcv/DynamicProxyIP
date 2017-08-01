@@ -1,0 +1,5 @@
+redis==2.10.5
+requests==2.18.2
+Scrapy==1.4.0
+Twisted==17.5.0
+PyYAML==3.12
