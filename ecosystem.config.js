@@ -10,7 +10,7 @@ module.exports = {
       name: "DynamicProxyIP",
       max_memory_restart: "1024M",
       log_date_format: "YYYY-MM-DD HH:mm:ss SSS",
-      script: "./start.sh",
+      script: "start.py",
       out_file: "/var/log/DynamicProxyIP/app.log",
       error_file: "/var/log/DynamicProxyIP/err.log",
       port: "6800",
