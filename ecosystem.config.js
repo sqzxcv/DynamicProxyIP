@@ -10,10 +10,10 @@ module.exports = {
       name: "DynamicProxyIP",
       max_memory_restart: "1024M",
       log_date_format: "YYYY-MM-DD HH:mm:ss SSS",
-      script: "./bin/www",
-      out_file: "/var/log/lila_activities/app.log",
-      error_file: "/var/log/lila_activities/err.log",
-      port: "3080",
+      script: "./start.sh",
+      out_file: "/var/log/DynamicProxyIP/app.log",
+      error_file: "/var/log/DynamicProxyIP/err.log",
+      port: "6800",
       env: {
         COMMON_VARIABLE: 'true'
       },

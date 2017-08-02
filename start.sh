@@ -4,7 +4,7 @@ export WORKON_HOME=~/Envs
 source /usr/local/bin/virtualenvwrapper.sh
 
 git pull
- 
+
 workon scrapyd_py3.6.1 
 pip install -r requirements.txt
 echo "当前执行路径" + $(pwd)
