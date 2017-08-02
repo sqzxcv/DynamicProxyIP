@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd /var/www/DynamicProxyIP/
+export WORKON_HOME=~/Envs
+source /usr/local/bin/virtualenvwrapper.sh
+
 git pull 
 workon scrapyd_py3.6.1 
 #pip install -r requirements.txt
