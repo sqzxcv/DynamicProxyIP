@@ -7,7 +7,7 @@ module.exports = {
 
     // First application
     {
-      name: "lila_activities",
+      name: "DynamicProxyIP",
       max_memory_restart: "1024M",
       log_date_format: "YYYY-MM-DD HH:mm:ss SSS",
       script: "./bin/www",
