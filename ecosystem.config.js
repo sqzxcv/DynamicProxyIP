@@ -34,7 +34,8 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:sqzxcv/DynamicProxyIP.git',
       path: '/var/www/DynamicProxyIP',
-      "post-deploy": 'git pull && workon scrapyd_py3.6.1 && npm install && pm2 reload scrapyd -x --interpreter /root/Envs/scrapyd_py3.6.1/bin/python'
+      // "post-deploy": 'git pull && workon scrapyd_py3.6.1 && npm install && pm2 reload scrapyd -x --interpreter /root/Envs/scrapyd_py3.6.1/bin/python'
+      "post-deploy": './start.sh'
     }
   }
 };
